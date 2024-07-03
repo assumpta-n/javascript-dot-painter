@@ -1,4 +1,28 @@
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;
     padding: 20px 40px;
+    text-align: center;
+    background-color:indigo;
 }
+h1 {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+.canvas {
+    height: 75vh;
+    width: 80%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.7) 0 5px 20px;
+    padding: 20px;
+    background-color: black;
+}
+.dot  {
+    width: 40px;
+    height: 40px;
+    background-color: chartreuse;
+    border-radius: 50%;
+}
+
