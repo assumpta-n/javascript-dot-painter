@@ -8,6 +8,16 @@ function randomRgbColor() {
     return `rgb(${randomPrimaryColor()}, ${randomPrimaryColor()}, ${randomPrimaryColor()})`
 }
 
+function changeDotColor() {
+    const dot = document.getElementById("dot")
+    dot.style.backgroundColor = randomRgbColor() //Change the background color to a random rgb color
+}
+
+const canvas = document.getElementById("canvas")
+canvas.addEventListener("click", changeDotColor)
+
+
+
 // function paintNewDot(clickEvent) {
 //     const dot = document.createElement("div")
 //     dot.className = "dot"
@@ -17,6 +27,5 @@ function randomRgbColor() {
 //     canvas.appendChild(dot)
 // }
 
-// const canvas = document.getElementById("canvas")
 // canvas.addEventListener("click", paintNewDot)
 
