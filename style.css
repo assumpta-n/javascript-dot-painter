@@ -22,7 +22,7 @@ h1 {
 .dot  {
     width: 40px;
     height: 40px;
-    background-color: chartreuse;
     border-radius: 50%;
+    position: absolute; /*Prevent the dots from stacking below each other*/
 }
 
